@@ -1,0 +1,142 @@
+{
+  "fr": {
+    "education": [
+      {
+        "degree": "P.G. DIPLOMA IN ACTING",
+        "institution": "Jamia Millia Islamia, Delhi",
+        "year": "Acting"
+      },
+      {
+        "degree": "COURSE ON COMIC ACTING",
+        "institution": "Film and Television Institute of India, Pune",
+        "year": "Acting"
+      },
+      {
+        "degree": "BACHELOR OF LAWS (LLB)",
+        "institution": "Dr. Ram Manohar Lohiya National Law University, Lucknow",
+        "year": "2011 - 2016"
+      }
+    ],
+    "workExperience": [
+      {
+        "jobTitle": "FOUNDER",
+        "company": "Leap Media",
+        "year": "2023 - Present",
+        "responsibilities": [
+          "Web3 video marketing agency",
+          "Produced content for top industry brands like Biconomy, Roqqu, Unikaksha",
+          "Product demos, explainer videos, social media content, event production, podcasts"
+        ]
+      },
+      {
+        "jobTitle": "DERIVATIVES TRADER",
+        "company": "Self Employed, Delhi",
+        "year": "April 2020 - January 2021",
+        "responsibilities": [
+          "Short term trading as well as swing trading in the Indian stock market"
+        ]
+      },
+      {
+        "jobTitle": "THEATRE ACTOR",
+        "company": "Actor's Paradise / Asmita Theatre / FTII Pune",
+        "year": "2018 - 2020",
+        "responsibilities": [
+          "Trained under Shri Dinesh Khanna (guru of Nawazuddin Siddiqui, Manoj Bajpai, Pankaj Tripathi)",
+          "Worked with Shri Arvind Gaur at Asmita Theatre — performed works of Manto, street theatre",
+          "Trained at FTII Pune under Shri Joy Fernandes — voice work, comedy, physical acting",
+          "Worked with Tom (Royal Academy of Dramatic Art, London) on the play 'The Axe'"
+        ]
+      },
+      {
+        "jobTitle": "GENERAL KNOWLEDGE FACULTY",
+        "company": "IMS Faridabad / Learn4exam / Hitbullseye",
+        "year": "2015 - 2020",
+        "responsibilities": [
+          "Taught students preparing for CLAT, CAT, DU entrance exams",
+          "Developed structured programs for Tata Institute of Social Sciences entrance",
+          "Head of GK Faculty and program coordinator at Hitbullseye, Lucknow"
+        ]
+      },
+      {
+        "jobTitle": "LAW INTERNSHIPS",
+        "company": "Supreme Court of India / Delhi High Court",
+        "year": "2011 - 2016",
+        "responsibilities": [
+          "Interned at the Supreme Court under Mr. A.D.N. Rao, Advocate on Record",
+          "Assisted on civil, commercial disputes and environment law matters",
+          "Interned at multiple Delhi High Court chambers and law firms"
+        ]
+      }
+    ]
+  },
+  "en": {
+    "education": [
+      {
+        "degree": "P.G. DIPLOMA IN ACTING",
+        "institution": "Jamia Millia Islamia, Delhi",
+        "year": "Acting"
+      },
+      {
+        "degree": "COURSE ON COMIC ACTING",
+        "institution": "Film and Television Institute of India, Pune",
+        "year": "Acting"
+      },
+      {
+        "degree": "BACHELOR OF LAWS (LLB)",
+        "institution": "Dr. Ram Manohar Lohiya National Law University, Lucknow",
+        "year": "2011 - 2016"
+      }
+    ],
+    "workExperience": [
+      {
+        "jobTitle": "FOUNDER",
+        "company": "Leap Media",
+        "year": "2023 - Present",
+        "responsibilities": [
+          "Web3 video marketing agency",
+          "Produced content for top industry brands like Biconomy, Roqqu, Unikaksha",
+          "Product demos, explainer videos, social media content, event production, podcasts"
+        ]
+      },
+      {
+        "jobTitle": "DERIVATIVES TRADER",
+        "company": "Self Employed, Delhi",
+        "year": "April 2020 - January 2021",
+        "responsibilities": [
+          "Short term trading as well as swing trading in the Indian stock market"
+        ]
+      },
+      {
+        "jobTitle": "THEATRE ACTOR",
+        "company": "Actor's Paradise / Asmita Theatre / FTII Pune",
+        "year": "2018 - 2020",
+        "responsibilities": [
+          "Trained under Shri Dinesh Khanna (guru of Nawazuddin Siddiqui, Manoj Bajpai, Pankaj Tripathi)",
+          "Worked with Shri Arvind Gaur at Asmita Theatre — performed works of Manto, street theatre",
+          "Trained at FTII Pune under Shri Joy Fernandes — voice work, comedy, physical acting",
+          "Worked with Tom (Royal Academy of Dramatic Art, London) on the play 'The Axe'"
+        ]
+      },
+      {
+        "jobTitle": "GENERAL KNOWLEDGE FACULTY",
+        "company": "IMS Faridabad / Learn4exam / Hitbullseye",
+        "year": "2015 - 2020",
+        "responsibilities": [
+          "Taught students preparing for CLAT, CAT, DU entrance exams",
+          "Developed structured programs for Tata Institute of Social Sciences entrance",
+          "Head of GK Faculty and program coordinator at Hitbullseye, Lucknow"
+        ]
+      },
+      {
+        "jobTitle": "LAW INTERNSHIPS",
+        "company": "Supreme Court of India / Delhi High Court",
+        "year": "2011 - 2016",
+        "responsibilities": [
+          "Interned at the Supreme Court under Mr. A.D.N. Rao, Advocate on Record",
+          "Assisted on civil, commercial disputes and environment law matters",
+          "Interned at multiple Delhi High Court chambers and law firms"
+        ]
+      }
+    ]
+  }
+}

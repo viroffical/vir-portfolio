@@ -1,0 +1,190 @@
+{
+  "categories": [
+    {
+      "name": {
+        "en": "Video Production",
+        "fr": "Video Production"
+      },
+      "services": [
+        {
+          "name": {
+            "en": "Product Demo Video",
+            "fr": "Product Demo Video"
+          },
+          "description": {
+            "en": "Compelling promo videos that drive conversions",
+            "fr": "Compelling promo videos that drive conversions"
+          },
+          "icon": "services/portfolio-icon-lg.webp",
+          "price": "Contact for pricing",
+          "duration": {
+            "en": "1-2 weeks",
+            "fr": "1-2 weeks"
+          },
+          "features": {
+            "en": [
+              "Compelling product demo videos that leave a lasting impression",
+              "Captivating storytelling that connects with your audience",
+              "Professional editing and post-production",
+              "Optimized for social media platforms",
+              "Script writing and creative direction included",
+              "Multiple revision rounds"
+            ],
+            "fr": [
+              "Compelling product demo videos that leave a lasting impression",
+              "Captivating storytelling that connects with your audience",
+              "Professional editing and post-production",
+              "Optimized for social media platforms",
+              "Script writing and creative direction included",
+              "Multiple revision rounds"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "Explainer Video",
+            "fr": "Explainer Video"
+          },
+          "description": {
+            "en": "Show customers how your product works and why it matters",
+            "fr": "Show customers how your product works and why it matters"
+          },
+          "icon": "services/business-website-icon-lg.webp",
+          "price": "Contact for pricing",
+          "duration": {
+            "en": "1-3 weeks",
+            "fr": "1-3 weeks"
+          },
+          "features": {
+            "en": [
+              "Clear, engaging explainer videos for complex products",
+              "Answers the essentials — who, what, where, why and how",
+              "Custom animations and motion graphics",
+              "Professional voiceover and sound design",
+              "Optimized for websites, social media, and presentations",
+              "Script development and storyboarding included"
+            ],
+            "fr": [
+              "Clear, engaging explainer videos for complex products",
+              "Answers the essentials — who, what, where, why and how",
+              "Custom animations and motion graphics",
+              "Professional voiceover and sound design",
+              "Optimized for websites, social media, and presentations",
+              "Script development and storyboarding included"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "Social Media Content",
+            "fr": "Social Media Content"
+          },
+          "description": {
+            "en": "Dynamic social media video content for brand exposure",
+            "fr": "Dynamic social media video content for brand exposure"
+          },
+          "icon": "services/ecommerce-icon-lg.webp",
+          "price": "Contact for pricing",
+          "duration": {
+            "en": "Ongoing",
+            "fr": "Ongoing"
+          },
+          "features": {
+            "en": [
+              "Engaging short-form and long-form video content",
+              "Platform-specific optimization (Instagram, X, YouTube, LinkedIn)",
+              "Content calendar and strategy",
+              "Trend-aware content creation",
+              "Brand voice development and consistency",
+              "Performance tracking and iteration"
+            ],
+            "fr": [
+              "Engaging short-form and long-form video content",
+              "Platform-specific optimization (Instagram, X, YouTube, LinkedIn)",
+              "Content calendar and strategy",
+              "Trend-aware content creation",
+              "Brand voice development and consistency",
+              "Performance tracking and iteration"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Event & Hosting",
+        "fr": "Event & Hosting"
+      },
+      "services": [
+        {
+          "name": {
+            "en": "Event Video Production",
+            "fr": "Event Video Production"
+          },
+          "description": {
+            "en": "After movies, highlight videos, and social content from your events",
+            "fr": "After movies, highlight videos, and social content from your events"
+          },
+          "icon": "services/pwa-icon-lg.webp",
+          "price": "Contact for pricing",
+          "duration": {
+            "en": "Per event",
+            "fr": "Per event"
+          },
+          "features": {
+            "en": [
+              "Full event video coverage",
+              "After-movie and highlight video production",
+              "Real-time social media content during the event",
+              "Professional hosting services available",
+              "Multi-camera setup and professional audio",
+              "Quick turnaround for social media clips"
+            ],
+            "fr": [
+              "Full event video coverage",
+              "After-movie and highlight video production",
+              "Real-time social media content during the event",
+              "Professional hosting services available",
+              "Multi-camera setup and professional audio",
+              "Quick turnaround for social media clips"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "Podcast Production",
+            "fr": "Podcast Production"
+          },
+          "description": {
+            "en": "From ideation to distribution — captivating podcasts",
+            "fr": "From ideation to distribution — captivating podcasts"
+          },
+          "icon": "services/mobile-icon-lg.webp",
+          "price": "Contact for pricing",
+          "duration": {
+            "en": "Ongoing",
+            "fr": "Ongoing"
+          },
+          "features": {
+            "en": [
+              "End-to-end podcast production",
+              "Concept development and guest coordination",
+              "Professional recording and editing",
+              "Distribution across all major platforms",
+              "Short-form clips for social media promotion",
+              "Analytics and audience growth strategy"
+            ],
+            "fr": [
+              "End-to-end podcast production",
+              "Concept development and guest coordination",
+              "Professional recording and editing",
+              "Distribution across all major platforms",
+              "Short-form clips for social media promotion",
+              "Analytics and audience growth strategy"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
