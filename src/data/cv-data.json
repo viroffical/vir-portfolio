@@ -3,25 +3,21 @@
     "education": [
       {
         "degree": "P.G. DIPLOMA IN ACTING",
-        "institution": "Jamia Millia Islamia, Delhi",
-        "year": "Acting"
+        "institution": "Jamia Millia Islamia, Delhi"
       },
       {
         "degree": "COURSE ON COMIC ACTING",
-        "institution": "Film and Television Institute of India, Pune",
-        "year": "Acting"
+        "institution": "Film and Television Institute of India, Pune"
       },
       {
         "degree": "BACHELOR OF LAWS (LLB)",
-        "institution": "Dr. Ram Manohar Lohiya National Law University, Lucknow",
-        "year": "2011 - 2016"
+        "institution": "Dr. Ram Manohar Lohiya National Law University, Lucknow"
       }
     ],
     "workExperience": [
       {
         "jobTitle": "FOUNDER",
         "company": "Leap Media",
-        "year": "2023 - Present",
         "responsibilities": [
           "Web3 video marketing agency",
           "Produced content for top industry brands like Biconomy, Roqqu, Unikaksha",
@@ -31,7 +27,6 @@
       {
         "jobTitle": "DERIVATIVES TRADER",
         "company": "Self Employed, Delhi",
-        "year": "April 2020 - January 2021",
         "responsibilities": [
           "Short term trading as well as swing trading in the Indian stock market"
         ]
@@ -39,7 +34,6 @@
       {
         "jobTitle": "THEATRE ACTOR",
         "company": "Actor's Paradise / Asmita Theatre / FTII Pune",
-        "year": "2018 - 2020",
         "responsibilities": [
           "Trained under Shri Dinesh Khanna (guru of Nawazuddin Siddiqui, Manoj Bajpai, Pankaj Tripathi)",
           "Worked with Shri Arvind Gaur at Asmita Theatre — performed works of Manto, street theatre",
@@ -50,7 +44,6 @@
       {
         "jobTitle": "GENERAL KNOWLEDGE FACULTY",
         "company": "IMS Faridabad / Learn4exam / Hitbullseye",
-        "year": "2015 - 2020",
         "responsibilities": [
           "Taught students preparing for CLAT, CAT, DU entrance exams",
           "Developed structured programs for Tata Institute of Social Sciences entrance",
@@ -60,7 +53,6 @@
       {
         "jobTitle": "LAW INTERNSHIPS",
         "company": "Supreme Court of India / Delhi High Court",
-        "year": "2011 - 2016",
         "responsibilities": [
           "Interned at the Supreme Court under Mr. A.D.N. Rao, Advocate on Record",
           "Assisted on civil, commercial disputes and environment law matters",
