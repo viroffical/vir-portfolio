@@ -2,20 +2,17 @@
   "categories": [
     {
       "name": {
-        "en": "Projects",
-        "fr": "Projects"
+        "en": "Projects"
       },
       "projects": [
         {
           "name": "Brand Viral",
           "icon": "projects/folder-logma-icon.webp",
           "title": {
-            "en": "Brand Viral - AI Viral Video Platform",
-            "fr": "Brand Viral - AI Viral Video Platform"
+            "en": "Brand Viral - AI Viral Video Platform"
           },
           "date": {
-            "en": "2025 - Current",
-            "fr": "2025 - Current"
+            "en": "2025 - Current"
           },
           "componentName": "BrandViralContent",
           "isFocus": false,
@@ -25,12 +22,10 @@
           "name": "Leap Media",
           "icon": "projects/folder-pangaia-icon.webp",
           "title": {
-            "en": "Leap Media - Web3 Video Marketing Agency",
-            "fr": "Leap Media - Web3 Video Marketing Agency"
+            "en": "Leap Media - Web3 Video Marketing Agency"
           },
           "date": {
-            "en": "2023 - Current",
-            "fr": "2023 - Current"
+            "en": "2023 - Current"
           },
           "componentName": "LeapMediaContent",
           "isFocus": false,
@@ -40,12 +35,10 @@
           "name": "Theatre",
           "icon": "projects/folder-clench-icon.webp",
           "title": {
-            "en": "Theatre - Plays & Performances",
-            "fr": "Theatre - Plays & Performances"
+            "en": "Theatre - Plays & Performances"
           },
           "date": {
-            "en": "2018 - 2020",
-            "fr": "2018 - 2020"
+            "en": "2018 - 2020"
           },
           "componentName": "TheatreContent",
           "isFocus": false,

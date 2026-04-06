@@ -93,9 +93,7 @@ const volumeStore = useVolumeStore()
 const localeStore = useLocaleStore()
 
 onMounted(() => {
-  // Ensure the localeStore is updated with the correct locale from localStorage
-  const storedLocale = localStorage.getItem('currentLocale') || 'fr'
-  localeStore.setLocale(storedLocale)
+  localeStore.setLocale('en')
 
   windowsStore.loadState()
   volumeStore.playAudio(['/sounds/start-windows.mp3'])
