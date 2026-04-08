@@ -26,6 +26,7 @@
       @toggle-minesweeper="openWindow('minesweeper')"
       @toggle-notepad="openWindow('notepad')"
       @toggle-doom="openWindow('doom')"
+      @toggle-videos="openWindow('videos')"
     />
     <div v-for="window in windows" :key="window.id">
       <Window
@@ -79,6 +80,8 @@ import Calendar from '@/components/Windows/Calendar/Calendar.vue'
 import Notepad from '@/components/Windows/Notepad.vue'
 import Doom from '@/components/Windows/Doom.vue'
 import Terminal from '@/components/Windows/Terminal.vue'
+import Videos from '@/components/Windows/Videos/Videos.vue'
+import MediaPlayer from '@/components/Windows/Videos/MediaPlayer.vue'
 // import Services from '@/components/Windows/Services.vue'
 
 import DesktopAppsLayout from '@/layouts/DesktopAppsLayout.vue'
@@ -126,6 +129,8 @@ const components = {
   Notepad: shallowRef(Notepad),
   Doom: shallowRef(Doom),
   Terminal: shallowRef(Terminal),
+  Videos: shallowRef(Videos),
+  MediaPlayer: shallowRef(MediaPlayer),
   // Services: shallowRef(Services)
 }
 
