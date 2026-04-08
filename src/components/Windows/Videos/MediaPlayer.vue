@@ -59,19 +59,6 @@
                 <polygon points="10,2 2,7 10,12" fill="#566"/>
               </svg>
             </button>
-            <!-- Fullscreen -->
-            <button class="icon-btn" @click="toggleFullscreen" title="Full Screen">
-              <svg v-if="!isFullscreen" viewBox="0 0 14 14">
-                <rect x="1" y="1" width="12" height="12" rx="2" fill="none" stroke="#566" stroke-width="1.3"/>
-                <line x1="5" y1="9" x2="10" y2="4" stroke="#566" stroke-width="1.4"/>
-                <polyline points="6,4 10,4 10,8" fill="none" stroke="#566" stroke-width="1.4"/>
-              </svg>
-              <svg v-else viewBox="0 0 14 14">
-                <rect x="1" y="1" width="12" height="12" rx="2" fill="none" stroke="#566" stroke-width="1.3"/>
-                <line x1="9" y1="5" x2="4" y2="10" stroke="#566" stroke-width="1.4"/>
-                <polyline points="8,10 4,10 4,6" fill="none" stroke="#566" stroke-width="1.4"/>
-              </svg>
-            </button>
           </div>
           <span class="wmp-status-time">{{ formatTime(currentTime) }}</span>
         </div>
@@ -208,6 +195,20 @@
 
       <!-- Right: shuffle, repeat, eq, etc. -->
       <div class="wmp-tr-right">
+       <!-- Fullscreen -->
+        <button class="wmp-fs-btn" @click="toggleFullscreen" title="Full Screen">
+          <svg v-if="!isFullscreen" width="13" height="13" viewBox="0 0 14 14">
+            <rect x="1" y="1" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.3"/>
+            <line x1="5" y1="9" x2="10" y2="4" stroke="currentColor" stroke-width="1.4"/>
+            <polyline points="6,4 10,4 10,8" fill="none" stroke="currentColor" stroke-width="1.4"/>
+          </svg>
+          <svg v-else width="13" height="13" viewBox="0 0 14 14">
+            <rect x="1" y="1" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.3"/>
+            <line x1="9" y1="5" x2="4" y2="10" stroke="currentColor" stroke-width="1.4"/>
+            <polyline points="8,10 4,10 4,6" fill="none" stroke="currentColor" stroke-width="1.4"/>
+          </svg>
+          <span>FULL SCREEN</span>
+        </button>
         <button class="wmp-btn-sm" :class="{ 'wmp-btn-sm-on': shuffle }" @click="shuffle = !shuffle" title="Shuffle">
           <svg width="11" height="11" viewBox="0 0 12 12"><path d="M1 3h2.5l4 6H10M1 9h2.5l4-6H10" stroke="currentColor" stroke-width="1.2" fill="none"/><polygon points="9,1 11.5,3 9,5" fill="currentColor"/><polygon points="9,7 11.5,9 9,11" fill="currentColor"/></svg>
         </button>
@@ -832,6 +833,26 @@ function formatDuration(ms) {
 
 .wmp-btn-sm:hover { background: linear-gradient(180deg, #d8e0ea 0%, #b0c0d0 100%); }
 .wmp-btn-sm-on { background: linear-gradient(180deg, #9ab8d8 0%, #5a88b8 100%) !important; border-color: #4070a0; color: #fff; }
+
+/* Fullscreen button */
+.wmp-fs-btn {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 22px;
+  padding: 0 6px;
+  background: linear-gradient(180deg, #c8d4e0 0%, #a0b0c0 100%);
+  border: 1px solid #7a8a9a;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #445566;
+  font-size: 9px;
+  font-weight: 700;
+  font-family: Tahoma, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+}
+.wmp-fs-btn:hover { background: linear-gradient(180deg, #d8e0ea 0%, #b0c0d0 100%); }
+.wmp-fs-btn:active { background: linear-gradient(180deg, #a0b0c0 0%, #c8d4e0 100%); }
 
 /* Volume */
 .wmp-vol-track {

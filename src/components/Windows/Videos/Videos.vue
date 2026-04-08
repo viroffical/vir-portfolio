@@ -1,21 +1,21 @@
 <template>
-  <div class="relative right-0 h-content-window flex flex-col overflow-y-auto bg-white">
+  <div class="relative right-0 h-content-window flex flex-col overflow-y-auto bg-white video-container">
     <div class="w-full flex-1 font-trebuchet-pixel flex flex-col">
       <div class="w-full flex-1 overflow-x-hidden flex flex-col">
         <!-- Header -->
         <div>
           <div class="flex items-center gap-5 p-1.5">
-            <img src="/img/icons/video.webp" alt="Videos" class="w-24" />
+            <img src="/img/icons/video-logo.webp" alt="Videos" class="w-24" />
             <div>
-              <h2 class="text-xl font-bold">Videos</h2>
-              <p class="text-xs mb-1">Check out my video collection</p>
+              <h2 class="text-xl font-bold">Selected Work</h2>
+              <p class="text-sm mb-1">A selction of work by <a href="https://x.com/Thevirofficial" target="_blank" class="text-blue-600 underline hover:text-blue-800">me</a> And <a href="https://x.com/DholakiaJaydeep" target="_blank" class="text-blue-600 underline hover:text-blue-800">JD</a></p>
             </div>
           </div>
           <div class="w-full h-px bg-gray-300 mb-2 mt-1"></div>
         </div>
 
         <!-- Video grid -->
-        <div class="grid grid-cols-2 gap-0 flex-1">
+        <div class="video-grid flex-1">
           <div
             v-for="video in videos"
             :key="video.id"
@@ -46,7 +46,7 @@ const openWindow = inject('openWindow')
 
 const formatViews = (n) => {
   if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M'
-  if (n >= 1000) return Math.round(n / 1000) + 'k'
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'K'
   return n
 }
 
@@ -61,3 +61,21 @@ const playVideo = (video) => {
   openWindow('mediaPlayer')
 }
 </script>
+
+<style scoped>
+.video-container {
+  container-type: inline-size;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+@container (min-width: 700px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>

@@ -103,6 +103,7 @@ const getLocalizedTitle = (entity) => {
 }
 
 const getLocalizedSubtitle = (entity) => {
+  if (!entity.subtitle) return ''
   return entity.subtitle[localeStore.currentLocale] || entity.subtitle['en']
 }
 </script>

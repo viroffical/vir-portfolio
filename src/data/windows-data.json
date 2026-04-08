@@ -26,29 +26,29 @@
     "leftMenuType": "default"
   },
   {
-    "id": "contact",
+    "id": "videos",
     "title": {
-      "en": "Contact me"
+      "en": "My Video Portfolio"
     },
     "subtitle": {
-      "en": "Leave me a message"
+      "en": "Watch my videos"
     },
-    "imgSrc": "/img/icons/contact/email-icon-lg.webp",
+    "imgSrc": "/img/icons/video.webp",
     "onDesktop": true,
     "resizable": true,
     "windowsHeaderLogo": true,
-    "isSearchVisible": false,
-    "headerPosition": "left",
-    "headerToolsId": "",
-    "menuHeaderItemsId": "contact",
-    "iconSrc": "/img/icons/contact/email-icon-sm.webp",
-    "initPositionX": 210,
-    "initPositionY": 140,
-    "initWidth": 590,
-    "initHeight": 440,
+    "isSearchVisible": true,
+    "headerPosition": "right",
+    "headerToolsId": "default",
+    "menuHeaderItemsId": "default",
+    "iconSrc": "/img/icons/video.webp",
+    "initPositionX": 200,
+    "initPositionY": 300,
+    "initWidth": 660,
+    "initHeight": 500,
     "minWidth": 200,
     "minHeight": 160,
-    "component": "ContactMe",
+    "component": "Videos",
     "leftMenuType": ""
   },
   {
@@ -224,7 +224,7 @@
       "en": "Play doom thanks to js-dos"
     },
     "imgSrc": "/img/icons/doom/doom-icon-lg.webp",
-    "onDesktop": true,
+    "onDesktop": false,
     "resizable": true,
     "windowsHeaderLogo": false,
     "isSearchVisible": true,
@@ -242,29 +242,29 @@
     "leftMenuType": ""
   },
   {
-    "id": "videos",
+    "id": "contact",
     "title": {
-      "en": "Videos"
+      "en": "Contact me"
     },
     "subtitle": {
-      "en": "Watch my videos"
+      "en": "Leave me a message"
     },
-    "imgSrc": "/img/icons/video.webp",
+    "imgSrc": "/img/icons/contact/email-icon-lg.webp",
     "onDesktop": true,
     "resizable": true,
     "windowsHeaderLogo": true,
     "isSearchVisible": true,
-    "headerPosition": "right",
+    "headerPosition": "left",
     "headerToolsId": "default",
     "menuHeaderItemsId": "default",
-    "iconSrc": "/img/icons/video.webp",
-    "initPositionX": 200,
-    "initPositionY": 300,
-    "initWidth": 660,
-    "initHeight": 500,
+    "iconSrc": "/img/icons/contact/email-icon-sm.webp",
+    "initPositionX": 210,
+    "initPositionY": 140,
+    "initWidth": 590,
+    "initHeight": 440,
     "minWidth": 200,
     "minHeight": 160,
-    "component": "Videos",
+    "component": "ContactMe",
     "leftMenuType": ""
   },
   {
@@ -297,6 +297,9 @@
     "id": "mediaPlayer",
     "title": {
       "en": "Windows Media Player"
+    },
+    "subtitle": {
+      "en": "Play videos"
     },
     "imgSrc": "/img/icons/video.webp",
     "onDesktop": false,
