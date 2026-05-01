@@ -19,7 +19,7 @@
       <!-- Center column -->
       <div class="wmp-center">
         <!-- Video area -->
-        <div class="wmp-video" @click="togglePlay">
+        <div class="wmp-video" @click="onVideoClick" @dblclick="onVideoDblClick">
           <video
             ref="videoEl"
             class="wmp-video-el"
@@ -34,7 +34,7 @@
         </div>
 
         <!-- Status bar -->
-        <div class="wmp-status" v-show="!isFullscreen || showControls">
+        <div class="wmp-status" v-show="!isFullscreen">
           <div class="wmp-status-left">
             <div class="wmp-status-icon-sm">
               <svg width="8" height="8" viewBox="0 0 8 8"><rect x="0" y="0" width="3" height="3" fill="#566"/><rect x="4" y="0" width="3" height="3" fill="#566"/><rect x="0" y="4" width="3" height="3" fill="#566"/><rect x="4" y="4" width="3" height="3" fill="#566"/></svg>
@@ -64,7 +64,7 @@
         </div>
 
         <!-- Info bar -->
-        <div class="wmp-info" v-show="!isFullscreen || showControls">
+        <div class="wmp-info" v-show="!isFullscreen">
           <svg width="8" height="8" viewBox="0 0 8 8" class="wmp-info-play"><polygon points="0,0 8,4 0,8" fill="#4a8"/></svg>
           <span class="wmp-info-text">{{ currentVideo ? 'Clip: ' + currentVideo.name : 'Ready' }}</span>
         </div>
@@ -123,7 +123,7 @@
     </div>
 
     <!-- Seek bar -->
-    <div class="player-bar" v-show="!isFullscreen || showControls">
+    <div class="player-bar" v-show="!isFullscreen">
       <button class="media-btn left-btn" @click="rewind">
         <span class="arrows">&#9668;&#9668;</span>
       </button>
@@ -139,7 +139,7 @@
     </div>
 
     <!-- Transport bar -->
-    <div class="wmp-transport" v-show="!isFullscreen || showControls">
+    <div class="wmp-transport" v-show="!isFullscreen">
       <!-- WMP logo -->
       <div class="wmp-logo">
         <img src="/img/icons/Windows-Media-Player-9.webp" alt="" class="wmp-logo-img" />
@@ -280,6 +280,7 @@ function loadAndPlay(video) {
       videoEl.value.load()
       videoEl.value.play().then(() => { isPlaying.value = true }).catch(() => { isPlaying.value = false })
     }
+    if (videoStore.consumeAutoFullscreen()) toggleFullscreen()
   })
 }
 
@@ -304,15 +305,31 @@ function onMouseMove() {
   if (isFullscreen.value) resetHideTimer()
 }
 
+function onKeyDown(e) {
+  const t = e.target
+  const tag = t && t.tagName
+  if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || (t && t.isContentEditable)) return
+  if (!currentVideo.value) return
+  if (e.code === 'Space' || e.key === ' ') {
+    e.preventDefault()
+    togglePlay()
+  } else if (e.code === 'KeyF' || e.key === 'f' || e.key === 'F') {
+    e.preventDefault()
+    toggleFullscreen()
+  }
+}
+
 onMounted(() => {
   document.addEventListener('fullscreenchange', onFSChange)
   document.addEventListener('webkitfullscreenchange', onFSChange)
+  document.addEventListener('keydown', onKeyDown)
   if (currentVideo.value) loadAndPlay(currentVideo.value)
 })
 
 onUnmounted(() => {
   document.removeEventListener('fullscreenchange', onFSChange)
   document.removeEventListener('webkitfullscreenchange', onFSChange)
+  document.removeEventListener('keydown', onKeyDown)
   clearTimeout(hideControlsTimer)
   if (videoEl.value) { videoEl.value.pause(); videoEl.value.src = '' }
 })
@@ -321,6 +338,23 @@ function togglePlay() {
   if (!currentVideo.value || !videoEl.value) return
   if (isPlaying.value) { videoEl.value.pause(); isPlaying.value = false }
   else { videoEl.value.play().then(() => { isPlaying.value = true }).catch(() => {}) }
+}
+
+let videoClickTimer = null
+let preClickPlayState = null
+function onVideoClick() {
+  clearTimeout(videoClickTimer)
+  if (preClickPlayState === null) preClickPlayState = isPlaying.value
+  videoClickTimer = setTimeout(() => {
+    togglePlay()
+    preClickPlayState = null
+  }, 300)
+}
+function onVideoDblClick() {
+  clearTimeout(videoClickTimer)
+  if (preClickPlayState !== null && isPlaying.value !== preClickPlayState) togglePlay()
+  preClickPlayState = null
+  toggleFullscreen()
 }
 
 function stopVideo() {
@@ -839,20 +873,20 @@ function formatDuration(ms) {
   display: flex;
   align-items: center;
   gap: 3px;
-  height: 22px;
-  padding: 0 6px;
-  background: linear-gradient(180deg, #c8d4e0 0%, #a0b0c0 100%);
-  border: 1px solid #7a8a9a;
+  height: 32px;
+  padding: 0 28px;
+  background: #4caf50;
+  border: 1px solid #2e7d32;
   border-radius: 2px;
   cursor: pointer;
-  color: #445566;
+  color: #fff;
   font-size: 9px;
   font-weight: 700;
   font-family: Tahoma, Verdana, sans-serif;
   letter-spacing: 0.5px;
 }
-.wmp-fs-btn:hover { background: linear-gradient(180deg, #d8e0ea 0%, #b0c0d0 100%); }
-.wmp-fs-btn:active { background: linear-gradient(180deg, #a0b0c0 0%, #c8d4e0 100%); }
+.wmp-fs-btn:hover { background: #5cbf60; }
+.wmp-fs-btn:active { background: #3d9f41; }
 
 /* Volume */
 .wmp-vol-track {

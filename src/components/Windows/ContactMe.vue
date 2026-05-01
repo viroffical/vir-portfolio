@@ -7,7 +7,7 @@
           <div class="flex items-center gap-5 p-1.5">
             <img src="/img/icons/contact/email-icon-lg.webp" alt="Contact" class="w-24" />
             <div>
-              <h2 class="text-xl font-bold">Contact Me</h2>
+              <h2 class="text-[2rem] font-bold">Contact Me</h2>
               <p class="text-sm mb-1">Get in touch with me</p>
             </div>
           </div>

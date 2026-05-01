@@ -7,8 +7,8 @@
           <div class="flex items-center gap-5 p-1.5">
             <img src="/img/icons/video-logo.webp" alt="Videos" class="w-24" />
             <div>
-              <h2 class="text-xl font-bold">Selected Work</h2>
-              <p class="text-sm mb-1">A selction of work by <a href="https://x.com/Thevirofficial" target="_blank" class="text-blue-600 underline hover:text-blue-800">me</a> And <a href="https://x.com/DholakiaJaydeep" target="_blank" class="text-blue-600 underline hover:text-blue-800">JD</a></p>
+              <h2 class="text-[2rem] font-bold">Selected Work</h2>
+              <p class="text-sm mb-1">A selction of work by me And JD</p>
             </div>
           </div>
           <div class="w-full h-px bg-gray-300 mb-2 mt-1"></div>
@@ -57,7 +57,7 @@ const formatLikes = (n) => {
 }
 
 const playVideo = (video) => {
-  videoStore.setVideo(video)
+  videoStore.setVideo(video, { autoFullscreen: true })
   openWindow('mediaPlayer')
 }
 </script>

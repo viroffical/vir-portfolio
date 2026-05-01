@@ -129,7 +129,7 @@ const throttleDelay = 16 // Update every 16ms (60 FPS)
 let lastUpdateTimestamp = 0
 
 // Window resizing constants
-const maximized = ref(false)
+const maximized = ref(true)
 
 // Window position and size
 const windowSize = { width: initWidth, height: initHeight }
