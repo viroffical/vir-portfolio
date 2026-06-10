@@ -8,7 +8,6 @@
             <img src="/img/icons/video-logo.webp" alt="Videos" class="w-24" />
             <div>
               <h2 class="text-[2rem] font-bold">Selected Work</h2>
-                            <p class="text-sm mb-1">A selction of work by <a href="https://x.com/Thevirofficial" target="_blank" class="text-blue-600 hover:underline hover:text-blue-800">me</a> And <a href="https://x.com/DholakiaJaydeep" target="_blank" class="text-blue-600 hover:underline hover:text-blue-800">JD</a></p>
             </div>
           </div>
           <div class="w-full h-px bg-gray-300 mb-2 mt-1"></div>
