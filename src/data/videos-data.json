@@ -1,16 +1,36 @@
 [
   {
-    "id": "7",
-    "name": "Product Launch Video",
+    "id": "1",
+    "name": "Agnost AI Launch Video",
     "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/agnost-car.jpeg",
     "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Timeline_4.mp4",
     "duration_ms": 43150,
-    "views_count": 0,
-    "likes_count": 0,
+    "views_count": 24000,
+    "likes_count": 648,
     "text": "A launch film for Agnost AI on language as the new interface, and the infrastructure making AI agents that actually understand what users want."
   },
   {
-    "id": "8",
+    "id": "2",
+    "name": "DUO Launch Video",
+    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/DUO.png",
+    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/DUO%20FINAL%20V1.mp4",
+    "duration_ms": 72400,
+    "views_count": 52436,
+    "likes_count": 623,
+    "text": "A launch film positioning DUO as the starting point for AI-native home service businesses."
+  },
+  {
+    "id": "3",
+    "name": "Creatin Launch Video",
+    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/creatin.jpg",
+    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Creatin_Video.mp4",
+    "duration_ms": 62130,
+    "views_count": 46785,
+    "likes_count": 438,
+    "text": "A launch film for Creatin, showing how brands and creators can run campaigns, deals, approvals, and payouts in one place."
+  },
+  {
+    "id": "4",
     "name": "Founder Journey Video",
     "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/parth-plane.jpeg",
     "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/The%20Journey%20video.mp4",
@@ -20,7 +40,7 @@
     "text": "A founder origin film for Agnost AI, following Shubham and Parth from IIT to the Himalayas to building the world's first infrastructure for self-improving AI agents."
   },
   {
-    "id": "1",
+    "id": "5",
     "name": "Agglayer Summit",
     "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Video_1.jpg",
     "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Video_1.mp4",
@@ -30,7 +50,7 @@
     "text": "A satirical campaign film for Agglayer Summit at Devcon Thailand 2024, centered on the idea of different chains coexisting with each other."
   },
   {
-    "id": "2",
+    "id": "6",
     "name": "StarkHack",
     "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Videos_2.jpg",
     "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Video_2.mp4",
@@ -38,25 +58,5 @@
     "views_count": 158390,
     "likes_count": 630,
     "text": "A bold, quirky film for StarkWare, telling the story of a coder being dragged into a police station for writing code too well."
-  },
-  {
-    "id": "5",
-    "name": "Solana Roast Video",
-    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Videos_3.jpg",
-    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Video_3.mp4",
-    "duration_ms": 129462,
-    "views_count": 46441,
-    "likes_count": 305,
-    "text": "A playful response film to solana’s crypto campaign, reimagined with a more chaotic and comedic tone."
-  },
-  {
-    "id": "6",
-    "name": "Biconomy (Types of people you meet at web3 events)",
-    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Videos_4.jpg",
-    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Videos_4.mp4",
-    "duration_ms": 303000,
-    "views_count": 1227,
-    "likes_count": 44,
-    "text": "A playful film about the different kinds of people you’re likely to run into at a Web3 event."
   }
 ]
