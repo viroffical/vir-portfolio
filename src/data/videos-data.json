@@ -2,8 +2,8 @@
   {
     "id": "1",
     "name": "Agnost AI Launch Video",
-    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/agnost-car.jpeg",
-    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Timeline_4.mp4",
+    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Agnost_AI_Launch.jpg",
+    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Agnost_AI_Launch.mp4",
     "duration_ms": 43150,
     "views_count": 24000,
     "likes_count": 648,
@@ -32,8 +32,8 @@
   {
     "id": "4",
     "name": "Founder Journey Video",
-    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/parth-plane.jpeg",
-    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/The%20Journey%20video.mp4",
+    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Founder_Journey.jpg",
+    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Founder_journey.mp4",
     "duration_ms": 38810,
     "views_count": 40000,
     "likes_count": 1200,
@@ -42,8 +42,8 @@
   {
     "id": "5",
     "name": "Agglayer Summit",
-    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Video_1.jpg",
-    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Video_1.mp4",
+    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Agglayer.jpg",
+    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Agglayer.mp4",
     "duration_ms": 143960,
     "views_count": 368889,
     "likes_count": 3737,
@@ -52,8 +52,8 @@
   {
     "id": "6",
     "name": "StarkHack",
-    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Videos_2.jpg",
-    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/Vir_Video_2.mp4",
+    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Starkhack.jpg",
+    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Starhack.mp4",
     "duration_ms": 89756,
     "views_count": 158390,
     "likes_count": 630,
