@@ -17,11 +17,5 @@
       <li>{{ $t('project.leapmedia.goalFourth') }}</li>
       <li>{{ $t('project.leapmedia.goalFifth') }}</li>
     </ul>
-    <div
-      class="w-full justify-center mt-5 mb-2 flex flex-row items-center gap-0.5 cursor-pointer transition-all text-heroic-blue fill-heroic-blue hover:underline">
-      <a rel="noopener" href="https://www.leapmedia.xyz/" target="_blank" class="cursor-pointer">
-        {{ $t('buttons.linkWebSite') }}
-      </a>
-    </div>
   </div>
 </template>
