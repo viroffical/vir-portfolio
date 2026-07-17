@@ -51,12 +51,12 @@
   },
   {
     "id": "6",
-    "name": "StarkHack",
-    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Starkhack.jpg",
-    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Starhack.mp4",
-    "duration_ms": 89756,
+    "name": "Rage Prompt",
+    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/AGN.jpg",
+    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/AGN.mp4",
+    "duration_ms": 38610,
     "views_count": 158390,
     "likes_count": 630,
-    "text": "A bold, quirky film for StarkWare, telling the story of a coder being dragged into a police station for writing code too well."
+    "text": "A high-energy launch film for Agnost AI, showing how angry user prompts become the most honest feedback an AI agent can get."
   }
 ]
