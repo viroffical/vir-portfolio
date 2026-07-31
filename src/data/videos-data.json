@@ -31,13 +31,13 @@
   },
   {
     "id": "4",
-    "name": "Founder Journey Video",
-    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Founder_Journey.jpg",
-    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Founder_journey.mp4",
-    "duration_ms": 38810,
+    "name": "Tsenta Launc video",
+    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Tsenta%20thumbnail.png",
+    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Tsenta.mp4",
+    "duration_ms": 41170,
     "views_count": 40000,
     "likes_count": 1200,
-    "text": "A founder origin film for Agnost AI, following Shubham and Parth from IIT to the Himalayas to building the world's first infrastructure for self-improving AI agents."
+    "text": "A founder-led launch film for Tsenta, showing how its founders turned their own broken job-search experience into a platform that helps thousands of people find roles and land interviews."
   },
   {
     "id": "5",
