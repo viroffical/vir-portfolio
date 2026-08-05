@@ -20,12 +20,8 @@
     />
     <DesktopAppsLayout
       :entities="entities"
-      @toggle-MyProjects="openWindow('myProjects')"
       @toggle-contact="openWindow('contact')"
       @toggle-myCV="openWindow('myCV')"
-      @toggle-music="openWindow('music')"
-      @toggle-minesweeper="openWindow('minesweeper')"
-      @toggle-notepad="openWindow('notepad')"
       @toggle-videos="openWindow('videos')"
     />
     <div v-for="window in windows" :key="window.id">
