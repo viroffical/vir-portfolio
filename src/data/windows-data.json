@@ -1,31 +1,5 @@
 [
   {
-    "id": "myProjects",
-    "title": {
-      "en": "My Projects"
-    },
-    "subtitle": {
-      "en": "See all my projects"
-    },
-    "imgSrc": "/img/icons/projects/projects-icon-lg.webp",
-    "onDesktop": true,
-    "resizable": true,
-    "windowsHeaderLogo": true,
-    "isSearchVisible": true,
-    "headerPosition": "left",
-    "headerToolsId": "default",
-    "menuHeaderItemsId": "default",
-    "iconSrc": "/img/icons/projects/projects-icon-sm.webp",
-    "initPositionX": 180,
-    "initPositionY": 100,
-    "initWidth": 660,
-    "initHeight": 500,
-    "minWidth": 200,
-    "minHeight": 160,
-    "component": "MyProjects",
-    "leftMenuType": "default"
-  },
-  {
     "id": "videos",
     "title": {
       "en": "My Video Portfolio"
@@ -75,29 +49,6 @@
     "minWidth": 200,
     "minHeight": 160,
     "component": "MyCV",
-    "leftMenuType": ""
-  },
-  {
-    "id": "music",
-    "title": {
-      "en": "My Musics"
-    },
-    "imgSrc": "/img/icons/music/playmusic-icon-lg.webp",
-    "onDesktop": true,
-    "resizable": true,
-    "windowsHeaderLogo": true,
-    "isSearchVisible": true,
-    "headerPosition": "right",
-    "headerToolsId": "default",
-    "menuHeaderItemsId": "default",
-    "iconSrc": "/img/icons/music/playmusic-icon-sm.webp",
-    "initPositionX": 130,
-    "initPositionY": 230,
-    "initWidth": 660,
-    "initHeight": 500,
-    "minWidth": 450,
-    "minHeight": 166,
-    "component": "Music",
     "leftMenuType": ""
   },
   {
@@ -167,52 +118,6 @@
     "minWidth": 200,
     "minHeight": 160,
     "component": "Calendar",
-    "leftMenuType": ""
-  },
-  {
-    "id": "minesweeper",
-    "title": {
-      "en": "Minesweeper"
-    },
-    "imgSrc": "/img/icons/minesweeper/minesweeper-icon-lg.webp",
-    "onDesktop": true,
-    "resizable": false,
-    "windowsHeaderLogo": false,
-    "isSearchVisible": true,
-    "headerPosition": "right",
-    "headerToolsId": "",
-    "menuHeaderItemsId": "minesweeper",
-    "iconSrc": "/img/icons/minesweeper/minesweeper-icon-sm.webp",
-    "initPositionX": 160,
-    "initPositionY": 270,
-    "initWidth": 205,
-    "initHeight": 305,
-    "minWidth": 205,
-    "minHeight": 305,
-    "component": "Minesweeper",
-    "leftMenuType": ""
-  },
-  {
-    "id": "notepad",
-    "title": {
-      "en": "Notepad"
-    },
-    "imgSrc": "/img/icons/notepad/notepad-icon-lg.webp",
-    "onDesktop": true,
-    "resizable": true,
-    "windowsHeaderLogo": false,
-    "isSearchVisible": true,
-    "headerPosition": "right",
-    "headerToolsId": "",
-    "menuHeaderItemsId": "notepad",
-    "iconSrc": "/img/icons/notepad/notepad-icon-sm.webp",
-    "initPositionX": 110,
-    "initPositionY": 480,
-    "initWidth": 230,
-    "initHeight": 270,
-    "minWidth": 200,
-    "minHeight": 160,
-    "component": "Notepad",
     "leftMenuType": ""
   },
   {
