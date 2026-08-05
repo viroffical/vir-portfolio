@@ -21,17 +21,17 @@
   },
   {
     "id": "3",
-    "name": "Creatin Launch Video",
-    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/creatin.jpg",
-    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Creatin%20Sfx.mp4",
-    "duration_ms": 62130,
+    "name": "Agnost Launch Video (YC S26)",
+    "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/AGNOST_LAUNCH.png",
+    "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/AGNOST_LAUNCH.mp4",
+    "duration_ms": 59393,
     "views_count": 46785,
     "likes_count": 438,
-    "text": "A launch film for Creatin, showing how brands and creators can run campaigns, deals, approvals, and payouts in one place."
+    "text": "A launch film for Agnost AI, showing how it turns user conversations into product insights and automatically fixes what’s broken"
   },
   {
     "id": "4",
-    "name": "Tsenta Launch video",
+    "name": "Tsenta Launch video (YC S26)",
     "thumbnail": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Tsenta%20thumbnail.png",
     "url": "https://pub-f1d7e227fc414580986e6b19571e55d3.r2.dev/portfolio/Tsenta.mp4",
     "duration_ms": 41170,
